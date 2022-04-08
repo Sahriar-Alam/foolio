@@ -1,0 +1,238 @@
+@media screen and (max-width: 1316px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .mainmenu-area .navbar-row .primary-menu > ul li a {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-area .header-contents .big-1 > h1 {
+        font-size: 60px !important;
+    }
+
+    .header-area .header-contents .header-desc p {
+        font-size: 20px !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 569px) {
+    .header-area .header-contents .big-1 > h1 {
+        font-size: 50px !important;
+    }
+
+    .header-area .header-contents .header-desc p {
+        font-size: 16px !important;
+    }
+
+    .header-area .header-contents .big-1 > h1,
+    .header-area .header-contents .header-desc p,
+    .header-area .header-contents .header-button {
+        margin-left: 15px !important;
+    }
+}
+
+/*--------------------------
+02.  service-area
+--------------------------*/
+@media only screen and (max-width: 991px) {
+
+    .service-area .service-box .service-title h1 {
+        font-size: 22px !important;
+    }
+
+    .service-area .service-box .service-desc p {
+        font-size: 15px !important;
+    }
+
+    .service-area .service-box .service-title .service-dot {
+        top: 14px;
+    }
+
+    .testimonial-slider,
+    .blog-slider {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .service-area .service-box {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1316px) {
+
+    .testimonial-slider,
+    .blog-slider {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .social-menu a i {
+        padding-right: 8px !important;
+    }
+
+    .navbar-row {
+        padding-left: 15px !important;
+    }
+
+    .testimonial-desc p {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+
+    .testimonial-details h7 {
+        line-height: 19px !important;
+        font-size: 13px !important;
+    }
+
+    .testimonial-details h5 {
+        font-size: 14px !important;
+    }
+
+    .testimonial-slider,
+    .blog-slider {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .testimonial-box {
+        padding-left: 15px !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .testimonial-title i {
+        padding: 15px 15px !important;
+        font-size: 14px !important;
+        margin-right: 15px !important;
+        margin-bottom: 25px !important;
+    }
+    .about-footer {
+        display: grid !important;
+    }
+    .phone {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 666px) {
+    .proggress-area .pgr-bar .progress-box .progressbar {
+        width: 100% !important;
+    }
+
+    .pgr-bar {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .portfolio-area .portfolio-bg .work-items {
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+}
+
+/*--------------------------
+02.  service-area
+--------------------------*/
+
+@media only screen and (min-width: 500px) {
+    .portfolio-area .portfolio-bg .work-items .work-item {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .portfolio-area .work-item .cap-text-two h5 {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .portfolio-area .work-item .cap-text-one h3 {
+        font-size: 20px
+    }
+
+    .portfolio-area .work-item .cap-text-two h5 {
+        font-size: 11px;
+    }
+
+    .cap-img img {
+        width: 15%;
+    }
+
+}
+
+@media only screen and (max-width: 1316px) {
+    .header-contents {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (min-width: 519px) and (max-width: 575px) {
+    .portfolio-area .work-item .cap-text-one h3 {
+        font-size: 23px;
+    }
+
+    .portfolio-area .work-item .cap-text-two h5 {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 519px) {
+    .portfolio-area .work-item .cap-text-one h3 {
+        font-size: 22px;
+    }
+
+    .portfolio-area .work-item .cap-text-two h5 {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .proggress-area .pgr-bar .progress-box .progressbar {
+        width: 250px !important;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .proggress-area .pgr-bar .progress-box .progressbar {
+        width: 185px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .proggress-area .pgr-bar .progress-box .pgr-title {
+        font-size: 12px;
+    }
+
+    .proggress-area .pgr-bar .progress-box .percentCount {
+        font-size: 14px;
+        margin-top: -45px;
+    }
+
+    .pgr-toper .section-title-two h3 {
+        font-size: 16px;
+    }
+}
